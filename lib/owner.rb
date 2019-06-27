@@ -70,7 +70,7 @@ class Owner
       d.owner = nil
     end
   end
-end
+
 
   def list_pets
     "I have #{pets[:dogs].count} dog(s), and #{pets[:cats].count} cat(s)."
