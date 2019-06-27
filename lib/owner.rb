@@ -60,8 +60,9 @@ class Owner
   end
 
   def sell_pets
-    pets.each do |species, arr|
-      arr.each do |pet_name|
+    Cat.all.each do |c|
+      c.mood = "nervous"
+      c.owner = nil 
       end
     end
   end
