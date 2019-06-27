@@ -61,7 +61,6 @@ class Owner
 
   def sell_pets
     Cat.all.each do |c|
-      binding.pry
       c.mood = "nervous"
       c.owner = nil
     end
