@@ -67,10 +67,10 @@ class Owner
 
     Dog.all.each do |d|
       d.mood = "nervous"
-      d.owner = nil 
-      end
+      d.owner = nil
     end
   end
+end
 
   def list_pets
     "I have #{pets[:dogs].count} dog(s), and #{pets[:cats].count} cat(s)."
