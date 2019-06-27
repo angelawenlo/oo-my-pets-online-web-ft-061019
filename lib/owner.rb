@@ -63,6 +63,11 @@ class Owner
     Cat.all.each do |c|
       c.mood = "nervous"
       c.owner = nil 
+    end
+
+    Dog.all.each do |d|
+      d.mood = "nervous"
+      d.owner = nil 
       end
     end
   end
